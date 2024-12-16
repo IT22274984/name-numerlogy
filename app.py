@@ -39,7 +39,7 @@ st.title("🔢 Letter Value Calculator")
 st.markdown("<h3 style='text-align: center; color: blue;'>Calculate the numeric value of your name or any word!</h3>", unsafe_allow_html=True)
 
 # Display your name's numeric value
-my_name = "YourName"  # Replace "YourName" with your actual name
+my_name = "Navashanthan"  # Replace "YourName" with your actual name
 my_name_value = calculate_letter_value(my_name)
 st.subheader(f"The numeric value of your name '{my_name}' is: {my_name_value}")
 
